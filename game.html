@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Egg Catch!</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+
+    <div class="container-intro">
+        <div class="center" style="height: 100%;">
+            <!-- <div id="intro">
+                <form>
+                    <br><br>
+                    <p>Name:</p> <input class="input" type="text" id="myInput" placeholder="Enter your name"><br>
+                    <p>Game about Catch Eggs.</p>
+                    <input type="button" class="btn" value="Submit" onclick="myFunction()" />
+                </form>
+            </div> -->
+            <div id="game">
+                <div class="left-panel">
+                    <p id="nameUser"></p>
+                    <p id="lastGameDate">Date</p>
+                </div>
+                <div class="right-panel">
+                    <p>Timer:</p>
+                    <p id="secondsCounter">00:00</p>
+                    <p>Score:</p>
+                    <p id="score">20</p>
+                </div>
+                <a id="start" href="javascript:start()">START</a>
+                <a id="playAgain" href="javascript:start()"></a>
+                <div id="basket" style="bottom: 0px; left: 180px;"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // let backgroundMusic = new Audio("sounds/intro-music.mp3");
+        // backgroundMusic.play();
+
+        /* function myFunction() {
+            intro.style.display = 'none';
+            game.style.display = 'block';
+            var name = document.getElementById("myInput").value;
+            document.getElementById("nameUser").innerHTML = name;
+        } */
+    </script>
+    <script src="js/API.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
